@@ -67,51 +67,70 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .keyword {
-  color: @purple;
+  color: @light-purple;
 
   &.control {
-    color: @purple;
+    color: @light-purple;
+  }
+
+  &.flow {
+    font-style: italic;
+    color: @light-purple;
   }
 
   &.operator {
     color: @syntax-text-color;
+    &.logical,
+    &.relational,
+    &.arithmetic,
+    &.bitwise {
+      color: @light-orange;
+    }
   }
 
   &.other.special-method {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.other.unit {
-    color: @orange;
+    color: @light-orange;
   }
 }
 
 .storage {
-  color: @purple;
+  color: @light-purple;
+
+  &.type.function {
+    color: @light-cyan;
+  }
 }
 
 .constant {
-  color: @orange;
+  color: @light-orange;
 
   &.character.escape {
-    color: @cyan;
+    color: @light-cyan;
   }
 
   &.numeric {
-    color: @orange;
+    color: @light-red;
+  }
+
+  &.boolean {
+    color: @light-red;
   }
 
   &.other.color {
-    color: @cyan;
+    color: @light-cyan;
   }
 
   &.other.symbol {
-    color: @green;
+    color: @light-green;
   }
 }
 
 .variable {
-  color: @red;
+  color: @syntax-text-color;
 
   &.interpolation {
     color: darken(@red, 10%);
@@ -120,31 +139,39 @@ atom-text-editor .search-results .marker.current-result .region,
   &.parameter.function {
     color: @syntax-text-color;
   }
+
+  &.language.this.js {
+    font-style: italic;
+    color: @light-purple;
+  }
+
 }
 
 .invalid.illegal {
-  background-color: @red;
+  background-color: @light-red;
   color: @syntax-background-color;
 }
 
 .string {
-  color: @green;
+  color: @light-green;
 
 
   &.regexp {
-    color: @cyan;
+    color: @light-cyan;
 
     .source.ruby.embedded {
-      color: @orange;
+      color: @light-orange;
     }
   }
 
   &.other.link {
-    color: @red;
+    color: @light-red;
   }
 }
 
 .punctuation {
+  color: @syntax-text-color;
+
   &.definition {
     &.comment {
       color: @light-gray;
@@ -152,14 +179,17 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.string,
     &.variable,
-    &.parameters,
     &.array {
       color: @syntax-text-color;
     }
 
+    &.parameters {
+      color: @light-cyan;
+    }
+
     &.heading,
     &.identity {
-      color: @blue;
+      color: @light-blue;
     }
 
     &.bold {
@@ -168,7 +198,7 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.italic {
-      color: @purple;
+      color: @light-purple;
       font-style: italic;
     }
   }
@@ -185,17 +215,17 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.function  {
-    color: @cyan;
+    color: @light-cyan;
 
     &.any-method {
-      color: @blue;
+      color: @light-blue;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: @blue;
+    color: @syntax-text-color;
   }
   &.name.type {
     color: @light-orange;
@@ -203,26 +233,26 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @light-green;
   }
   &.name.class, &.name.type.class {
     color: @light-orange;
   }
 
   &.name.section {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.name.tag {
-    color: @red;
+    color: @light-red;
     text-decoration: underline;
   }
 
   &.other.attribute-name {
-    color: @orange;
+    color: @light-orange;
 
     &.id {
-      color: @blue;
+      color: @light-blue;
     }
   }
 }
@@ -233,20 +263,31 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.link {
-    color: @orange;
+    color: @light-orange;
   }
 
   &.require {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.selector {
-    color: @purple;
+    color: @light-purple;
   }
 
   &.separator {
     background-color: @gray;
     color: @syntax-text-color;
+  }
+
+  &.method,
+  &.function-call {
+    .entity.name.function {
+      color: @light-blue;
+    }
+  }
+
+  &.function-call + .group.braces.round .brace.round {
+    color: @light-cyan;
   }
 }
 
@@ -256,48 +297,48 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .markup {
   &.bold {
-    color: @orange;
+    color: @light-orange;
     font-weight: bold;
   }
 
   &.changed {
-    color: @purple;
+    color: @light-purple;
   }
 
   &.deleted {
-    color: @red;
+    color: @light-red;
   }
 
   &.italic {
-    color: @purple;
+    color: @light-purple;
     font-style: italic;
   }
 
   &.heading .punctuation.definition.heading {
-    color: @blue;
+    color: @light-blue;
   }
 
   &.inserted {
-    color: @green;
+    color: @light-green;
   }
 
   &.list {
-    color: @red;
+    color: @light-red;
   }
 
   &.quote {
-    color: @orange;
+    color: @light-orange;
   }
 
   &.raw.inline {
-    color: @green;
+    color: @light-green;
   }
 }
 
 .source.gfm .markup {
   -webkit-font-smoothing: auto;
   &.heading {
-    color: @green;
+    color: @light-green;
   }
 }
 
