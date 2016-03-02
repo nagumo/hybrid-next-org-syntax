@@ -89,12 +89,15 @@ atom-text-editor .search-results .marker.current-result .region,
 .storage {
   color: @light-purple;
 
-  &.type.function {
-    color: @light-cyan;
-  }
+  &.type {
+    &.function {
+      color: @light-cyan;
+    }
 
-  &.type.doc {
-    color: @light-gray;
+    &.doc,
+    &.jsdoc  {
+      color: @light-gray;
+    }
   }
 }
 
@@ -367,5 +370,9 @@ atom-text-editor[mini] .scroll-view,
     &.round {
       color: @light-cyan;
     }
+  }
+
+  &.meta.group.braces.round {
+    color: @light-cyan;
   }
 }
