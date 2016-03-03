@@ -227,7 +227,6 @@ atom-text-editor .search-results .marker.current-result .region,
   }
   &.name.type {
     color: @light-orange;
-    text-decoration: underline;
   }
 
   &.other.inherited-class {
@@ -242,8 +241,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.tag {
-    color: @light-red;
-    text-decoration: underline;
+    color: @light-purple;
   }
 
   &.other.attribute-name {
@@ -340,7 +338,7 @@ atom-text-editor[mini] .scroll-view,
     color: @light-cyan;
   }
 
-  &.meta.function.arrow .punctuation.definition.parameters {
+  .punctuation.definition.parameters {
     color: @light-cyan;
   }
 
@@ -374,5 +372,9 @@ atom-text-editor[mini] .scroll-view,
 
   &.meta.group.braces.round {
     color: @light-cyan;
+  }
+
+  &.keyword.other {
+    color: @light-red;
   }
 }
