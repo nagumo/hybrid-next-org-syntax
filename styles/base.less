@@ -94,9 +94,13 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @light-cyan;
     }
 
-    &.doc,
-    &.jsdoc  {
-      color: @light-gray;
+    &.class {
+      &.doc,
+      &.jsdoc,
+      &.todo  {
+        font-style: italic;
+        color: @light-gray;
+      }
     }
   }
 }
@@ -125,7 +129,7 @@ atom-text-editor .search-results .marker.current-result .region,
   color: @syntax-text-color;
 
   &.interpolation {
-    color: @red;
+    color: @light-orange;
   }
 
   &.parameter.function {
@@ -203,7 +207,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.section.embedded {
-    color: @red;
+    color: @orange;
   }
 }
 
@@ -308,7 +312,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.list {
-    color: @light-red;
+    color: @light-orange;
   }
 
   &.quote {
