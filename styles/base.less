@@ -342,8 +342,14 @@ atom-text-editor[mini] .scroll-view,
     color: @light-cyan;
   }
 
-  .punctuation.definition.parameters {
-    color: @light-cyan;
+  .punctuation {
+    &.definition.parameters {
+      color: @light-cyan;
+    }
+
+    &.section.class {
+      color: @light-orange;
+    }
   }
 
   &.variable.language.this {
