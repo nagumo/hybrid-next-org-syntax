@@ -12,7 +12,7 @@ While this color scheme should work for any programming language, the project is
 
 ## Screenshots
 
-Screenshots are snippets of code from the (Babel project)[https://github.com/babel/babel]. Language package used is the excellent [language-babel](https://atom.io/packages/language-babel) and the font is the equally excellent [Hack font](https://github.com/chrissimpkins/Hack).
+Screenshots are snippets of code from the [Babel project](https://github.com/babel/babel). Language package used is the excellent [language-babel](https://atom.io/packages/language-babel) and the font is the equally excellent [Hack font](https://github.com/chrissimpkins/Hack).
 
 ![](https://raw.githubusercontent.com/kaicataldo/hybrid-next-syntax/master/screenshots/hybrid-next-screenshot-1.png)
 ![](https://raw.githubusercontent.com/kaicataldo/hybrid-next-syntax/master/screenshots/hybrid-next-screenshot-2.png)
