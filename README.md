@@ -12,6 +12,8 @@ While this color scheme should work for any programming language, the project is
 
 ## Screenshots
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Screenshots are snippets of code from the (Babel project)[https://github.com/babel/babel]. Language package used is the excellent [language-babel](https://atom.io/packages/language-babel) and the font is the equally excellent [Hack font](https://github.com/chrissimpkins/Hack).
 
-Screenshots forthcoming
+![](https://raw.githubusercontent.com/kaicataldo/hybrid-next-syntax/master/screenshots/hybrid-next-screenshot-1.png)
+![](https://raw.githubusercontent.com/kaicataldo/hybrid-next-syntax/master/screenshots/hybrid-next-screenshot-2.png)
+![](https://raw.githubusercontent.com/kaicataldo/hybrid-next-syntax/master/screenshots/hybrid-next-screenshot-3.png)
