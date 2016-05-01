@@ -1,0 +1,67 @@
+.source.js {
+  .keyword.operator {
+    color: @hue-1;
+
+    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
+    // search "instanceof" for location
+    &.delete,
+    &.in,
+    &.of,
+    &.instanceof,
+    &.new,
+    &.typeof,
+    &.void {
+      color: @hue-3;
+    }
+  }
+}
+.js {
+  &.storage.type.function.arrow {
+    color: @hue-1;
+  }
+
+  .punctuation {
+    &.definition.parameters {
+      color: @hue-1;
+    }
+
+    &.section.class {
+      color: @hue-6-2;
+    }
+  }
+
+  &.variable.language.this {
+    font-style: italic;
+    color: @hue-3;
+  }
+
+  &.keyword.control.flow {
+    color: @hue-5;
+  }
+
+  &.meta.function .punctuation {
+    color: @hue-1;
+  }
+
+  &.keyword.operator.accessor {
+    color: @syntax-fg;
+  }
+
+  &.meta.brace {
+    &.square, &.curly {
+      color: @hue-6-2;
+    }
+
+    &.round {
+      color: @hue-1;
+    }
+  }
+
+  &.meta.group.braces.round {
+    color: @hue-1;
+  }
+
+  &.keyword.other {
+    color: @hue-5;
+  }
+}
