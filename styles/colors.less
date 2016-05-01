@@ -1,19 +1,31 @@
-// These colors are specific to the theme. Do not use in a package!
 
-@black: #232C31;
-@dark-gray: #2D3C46;
-@gray: #425059;
-@red: #A54242;
-@light-red: #CC6666;
-@green: #8C9440;
-@light-green: #B5BD68;
-@orange: #DE935F;
-@light-orange: #F0C674;
-@blue: #5F819D;
-@light-blue: #81A2BE;
-@purple: #85678F;
-@light-purple: #B294BB;
-@cyan: #5E8D87;
-@light-cyan: #8ABEB7;
-@light-gray: #6C7A80;
-@white: #C5C8C6;
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+
+// Monochrome -----------------------------------
+@mono-1: #C5C8C6; // default text
+@mono-2: #6C7A80;
+@mono-3: #425059;
+
+// Colors -----------------------------------
+@hue-1:   #8ABEB7; // <-cyan
+@hue-2:   #81A2BE; // <-blue
+@hue-3:   #B294BB; // <-purple
+@hue-4:   #B5BD68; // <-green
+
+@hue-5:   #CC6666; // <-red 1
+@hue-5-2: #A54242; // <-red 2
+
+@hue-6:   #DE935F; // <-orange 1
+@hue-6-2: #F0C674; // <-orange 2
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );
