@@ -14,9 +14,8 @@
       color: @hue-3;
     }
   }
-}
-.js {
-  &.storage.type.function.arrow {
+
+  .storage.type.function.arrow {
     color: @hue-1;
   }
 
@@ -30,24 +29,24 @@
     }
   }
 
-  &.variable.language.this {
+  .variable.language.this {
     font-style: italic;
     color: @hue-3;
   }
 
-  &.keyword.control.flow {
+  .keyword.control.flow {
     color: @hue-5;
   }
 
-  &.meta.function .punctuation {
+  .meta.function .punctuation {
     color: @hue-1;
   }
 
-  &.keyword.operator.accessor {
+  .keyword.operator.accessor {
     color: @syntax-fg;
   }
 
-  &.meta.brace {
+  .meta.brace {
     &.square, &.curly {
       color: @hue-6-2;
     }
@@ -57,11 +56,15 @@
     }
   }
 
-  &.meta.group.braces.round {
+  .meta.group.braces.round {
     color: @hue-1;
   }
 
-  &.keyword.other {
+  .keyword.other {
     color: @hue-5;
+  }
+
+  .string.unquoted {
+    color: @syntax-fg;
   }
 }
