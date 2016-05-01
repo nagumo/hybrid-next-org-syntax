@@ -265,7 +265,7 @@
 
 .markup {
   &.bold {
-    color: @hue-6;
+    color: @hue-1;
     font-weight: bold;
   }
 
@@ -278,12 +278,13 @@
   }
 
   &.italic {
-    color: @hue-3;
+    color: @hue-6;
     font-style: italic;
   }
 
   &.heading {
-    color: @hue-5;
+    color: @hue-4;
+    font-weight: bold;
 
     .punctuation.definition.heading {
       color: @hue-2;
@@ -292,6 +293,11 @@
 
   &.link {
     color: @hue-3;
+  }
+
+  &.strike {
+    color: @hue-5;
+    text-decoration: line-through;
   }
 
   &.inserted {
@@ -303,6 +309,10 @@
   }
 
   &.raw {
-    color: @hue-4;
+    color: @hue-1;
+  }
+
+  &.code .support {
+    color: @hue-1;
   }
 }

@@ -8,7 +8,7 @@ This project was born out of my frustration while searching for a color scheme t
 
 In the spirit of the original Hybrid theme for Vim, Hybrid Next is inspired by [Hybrid](https://github.com/w0ng/vim-hybrid)'s color scheme and [Oceanic Next](http://labs.voronianski.com/oceanic-next-color-scheme/)'s syntax highlighting (specifically for modern JavaScript), and is built on GitHub's [One Dark Syntax theme](https://github.com/atom/one-dark-syntax).
 
-The project is currently focused on better syntax highlighting for modern JavaScript (ES2015 and beyond), though it will yield similar results to the One Dark Syntax theme it is built on and should work for any language. [All feedback](https://github.com/kaicataldo/hybrid-next-syntax/issues) as well as pull requests are very welcome!
+The project is currently focused on better syntax highlighting for modern JavaScript (ES2015 and beyond), though it will yield similar results to the One Dark Syntax theme it is built on and should work for most languages. [All feedback](https://github.com/kaicataldo/hybrid-next-syntax/issues) as well as pull requests are very welcome!
 
 ## Screenshots
 
