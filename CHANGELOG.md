@@ -1,8 +1,4 @@
-## 0.1.0 - First Release
-* First release. Initial work on colors and syntax highlighting complete.
+## 0.1.0 - First Fix
 
-## 0.4.0 - Second Release
-* Better JS highlighting
-
-## 0.4.1 - Small rewrite
-* Small rewrite of the syntax highlighting file for better maintainability and scoping of language specific syntax requirements
+- Fixed
+[Removing Shadow DOM boundaries from text editor elements](http://blog.atom.io/2016/11/14/removing-shadow-dom-boundary-from-text-editor-elements.html)
