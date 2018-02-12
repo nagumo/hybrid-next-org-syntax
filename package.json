@@ -1,5 +1,5 @@
 {
-  "name": "hybrid-next-feature-syntax",
+  "name": "hybrid-next-fix-syntax",
   "author": "Toshiaki Nagumo <akind.knight.022@gmail.com>",
   "theme": "syntax",
   "version": "0.1.0",
@@ -9,10 +9,10 @@
     "theme",
     "hybrid",
     "next",
-    "feature",
+    "fix",
     "dark"
   ],
-  "repository": "https://github.com/nagumo/hybrid-next-syntax.git",
+  "repository": "https://github.com/nagumo/hybrid-next-fix-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.23.3"
