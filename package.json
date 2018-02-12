@@ -1,19 +1,20 @@
 {
-  "name": "hybrid-next-syntax",
-  "author": "Kai Cataldo <kaicataldo@gmail.com>",
+  "name": "hybrid-next-feature-syntax",
+  "author": "Toshiaki Nagumo <akind.knight.022@gmail.com>",
   "theme": "syntax",
-  "version": "0.9.2",
-  "description": "Created for those who spend a lot of time in their text editor, Hybid Next is a dark, colorful theme for Atom that aims to be both readable and easy on the eyes.",
+  "version": "0.1.0",
+  "description": "",
   "keywords": [
     "syntax",
     "theme",
     "hybrid",
     "next",
+    "feature",
     "dark"
   ],
-  "repository": "https://github.com/kaicataldo/hybrid-next-syntax",
+  "repository": "https://github.com/nagumo/hybrid-next-syntax.git",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.23.3"
   }
 }
