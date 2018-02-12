@@ -1,3 +1,6 @@
+Copyright (c) 2018 Toshiaki Nagumo
+
+Built on Hybrid Next Syntax Theme
 Copyright (c) 2016 Kai Cataldo
 
 Built on One Dark Syntax Theme
