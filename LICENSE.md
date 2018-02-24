@@ -1,3 +1,4 @@
+Built on Hybrid Next Fix Syntax Theme
 Copyright (c) 2018 Toshiaki Nagumo
 
 Built on Hybrid Next Syntax Theme
